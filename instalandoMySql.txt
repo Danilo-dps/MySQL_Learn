@@ -1,0 +1,60 @@
+obs:
+    * Em alguns momentos, será passado um link de download, se atentar a versão lts mais recente
+    * Em alguns momentos aparece uma interface para selecionar, use TAB para seleceionar, e ENTER continuar
+
+link do video: 
+https://www.youtube.com/watch?v=Ft6y3Ei7tJQ&ab_channel=B%C3%B3sonTreinamentos
+
+sudo apt update: 
+-> para atualizar todos os repositórios 
+
+wget http://repo.mysql.com/mysql-apt-config_0.8.32-1_all.deb: 
+-> aqui se atentar a versão disponivel no link: https://dev.mysql.com/downloads/repo/apt/
+
+sudo apt install gnupg:
+-> O comando sudo apt install gnupg é usado para instalar o GnuPG (GNU Privacy Guard) 
+no seu sistema Ubuntu ou Debian. O GnuPG é uma ferramenta para comunicação e armazenamento de dados seguros. 
+Ele permite que você criptografe dados e crie assinaturas digitais, garantindo 
+a integridade e a confidencialidade das suas informações
+
+sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb:
+-> O comando sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb é usado para instalar o pacote de configuração do repositório APT do MySQL no seu sistema. 
+Esse pacote configura o repositório APT do MySQL, permitindo que você instale e atualize facilmente o MySQL e seus componentes usando o gerenciador de pacotes APT
+
+sudo apt install mysql-server:
+-> O comando sudo apt install mysql-server 
+é usado para instalar o servidor MySQL no seu sistema Ubuntu ou Debian
+
+sudo mysql_secure_installation: 
+-> O comando sudo mysql_secure_installation 
+é usado para melhorar a segurança da sua instalação do MySQL
+
+sudo systemctl status mysql:
+-> O comando sudo systemctl status mysql é usado para verificar o status do serviço MySQL no seu sistema. 
+Ele fornece informações sobre se o serviço MySQL está ativo (em execução), 
+inativo (parado) ou se houve algum erro durante a inicialização
+
+mysql -u root -p:
+-> O comando mysql -u root -p é usado para acessar o prompt de comando do MySQL como o usuário root. 
+Aqui está o que cada parte do comando faz:
+mysql: Inicia o cliente de linha de comando do MySQL.
+-u root: Especifica que você deseja se conectar como o usuário root.
+-p: Solicita que você insira a senha do usuário root.
+Quando você executa esse comando, será solicitado a digitar a senha do usuário root. 
+Após inserir a senha corretamente, você terá acesso ao prompt do MySQL, onde 
+poderá executar comandos SQL para gerenciar seus bancos de dados.
+
+
+
+            INSTALANDO O MySQL Workbench usando o Snap:
+sudo apt install snapd:
+Para instalar o snapd, caso não esteja instalado.
+sudo snap install mysql-workbench-community
+Para instalar o MySQL Workbench
+
+
+
+
+
+
+
